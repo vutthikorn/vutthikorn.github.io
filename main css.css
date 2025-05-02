@@ -1,0 +1,63 @@
+body {font-family: "Open Sans", sans-serif;}
+
+.about {font-size:  18px;
+    font-weight: 300;
+color: rgb(146, 127, 255);
+margin-bottom: 24px;
+background-color: black;
+color: aqua;}
+
+.avatar {
+    width: 210px;
+    height: 310px;
+    margin-bottom: 40px;
+    border-radius: 50%;  
+    object-fit: cover;
+    box-shadow: 10px 10px 0px 0px black ;
+}
+.contact {
+    margin-bottom: 48px;  
+    background-color: black; 
+    color: aqua;
+}
+
+.container {background-image : url(https://images.unsplash.com/photo-1629752187687-3d3c7ea3a21b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D );
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            padding: 128px;
+    
+        }
+@media screen and (max-width: 768px){
+    .container{
+        padding: 48px ;
+    }
+}
+    
+
+.content { max-width: 500px;}
+
+.job { font-size: 16px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+            background-color: black;
+            color: aqua;
+        }
+
+.name {font-size: 48px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        background-color: black;
+        color: aqua;
+    }
+
+    @media screen and (max-width: 768px){
+        .name{
+            font-size: 36px ;
+        }
+    }
+        
+.button {background-color: black;
+color:whitesmoke;
+padding: 12px 24px;
+text-decoration: none;
+}
